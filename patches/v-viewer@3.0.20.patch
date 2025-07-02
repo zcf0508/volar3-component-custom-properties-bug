@@ -1,0 +1,13 @@
+diff --git a/types/index.d.ts b/types/index.d.ts
+index 987001c9aba0ec79b1c526ed02dc179b5db4c76e..b34219aa48df7dd827410aaba312c4c2993b573f 100644
+--- a/types/index.d.ts
++++ b/types/index.d.ts
+@@ -29,7 +29,7 @@ export declare const component: DefineComponent<{}, {}, any>
+ 
+ export default VueViewer
+ 
+-declare module '@vue/runtime-core' {
++declare module 'vue' {
+   interface ComponentCustomProperties {
+     $viewerApi: typeof api
+   }
